@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% for (var chunk in htmlWebpackPlugin.files.css) { %>
+		<link rel="preload" href="<%= htmlWebpackPlugin.files.css[chunk] %>"  as="style">
+	<% } %>
+	<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+		<link rel="preload" href="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>" as="script">
+	<% } %>
+	<meta charset="utf-8">
+	<title>DisCrypto</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+	<meta name="description" content="preact-boilerplate">
+	<meta name="msapplication-TileColor" content="#673ab8">
+	<meta name="msapplication-TileImage" content="./assets/icons/mstile-150x150.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="preact-boilerplate">
+	<meta name="application-name" content="preact-boilerplate">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="theme-color" content="#673ab8">
+
+	<script src='lib/jquery-3.1.1.min.js'></script>
+	<script src='lib/semantic.min.js'></script>
+
+	<link rel="stylesheet" type="text/css" href="lib/semantic.min.css" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/assets/icons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="./manifest.json">
+</head>
+<body>
+	<br />
+	<div class="ui container">
+    <div class="ui large secondary menu">
+      <a class="active item nav_brand">Discrypto</a>
+      <a class="item" href="https://github.com/DisCrypto/DisCrypto-Discord" target="_href">Github</a>
+      <div class="right menu">
+        <a class="item" href="https://discord.gg/Pz8Fq6" target="_href">Support</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
