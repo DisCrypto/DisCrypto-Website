@@ -82,7 +82,7 @@ export default class Home extends Component {
                         </tr>
                         <tr>
                             <td><code>ping</code></td>
-                            <td>Tests the bot\'s ping time</td>
+                            <td>Tests the bot's ping time</td>
                             <td><code>ping </code></td>
                         </tr>
                         <tr>
