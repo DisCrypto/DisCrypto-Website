@@ -16,7 +16,7 @@ export default class Home extends Component {
                         <br />
                         <p class={`${style.home_caption}`}>Discord Bot for Crypto</p>
                         <p class={`${style.home_sub_caption}`}>
-              Features: List marketcap, Manage wallets, Check prices, and even Scan addresses.
+              Features: Manage wallets, check prices, scan addresses, learn about coins, and much more.
                         </p>
                         <a class={`${style.call_to_action_btn} ui secondary large button`} href="https://goo.gl/Y9eWD4" target="_blank">
               Add to Discord
