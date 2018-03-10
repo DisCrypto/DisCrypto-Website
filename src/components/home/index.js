@@ -66,6 +66,11 @@ export default class Home extends Component {
                             <td><code>coininfo btc</code></td>
                         </tr>
                         <tr>
+                            <td><code>scan [address/txhash] [coin]</code></td>
+                            <td>Display important coin information such as their website, block explorers, forums</td>
+                            <td><code>coininfo btc</code></td>
+                        </tr>
+                        <tr>
                             <td><code>genwallet [symbol]</code></td>
                             <td>Create a paper wallet where keys will be sent via Direct Message. Only supports BTC/ETH/LTC/XRP/BCH/XRB currently</td>
                             <td><code>genwallet eth </code></td>
