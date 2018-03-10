@@ -67,8 +67,8 @@ export default class Home extends Component {
                         </tr>
                         <tr>
                             <td><code>scan [address/txhash] [coin]</code></td>
-                            <td>Display important coin information such as their website, block explorers, forums</td>
-                            <td><code>coininfo btc</code></td>
+                            <td>Automatically scan an address/transaction hash of BTC or ETH and print out its values</td>
+                            <td><code>scan 0x8af2c82B5EdCE866d69390733Cef86A3EA145E3d</code></td>
                         </tr>
                         <tr>
                             <td><code>genwallet [symbol]</code></td>
