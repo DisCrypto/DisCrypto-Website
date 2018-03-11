@@ -76,14 +76,19 @@ export default class Home extends Component {
                             <td><code>genwallet eth </code></td>
                         </tr>
                         <tr>
-                            <td><code>invite</code></td>
-                            <td>Generate support server/bot invite links</td>
-                            <td><code>invite</code></td>
+                            <td><code>shitcoin</code></td>
+                            <td>Generate your very own shitcoin, Mad-Libs style!</td>
+                            <td><code>shitcoin</code></td>
                         </tr>
                         <tr>
                             <td><code>flippening</code></td>
                             <td>Check flippening (ETH Overtaking BTC) status</td>
                             <td><code>flippening</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>invite</code></td>
+                            <td>Generate support server/bot invite links</td>
+                            <td><code>invite</code></td>
                         </tr>
                         <tr>
                             <td><code>ping</code></td>
