@@ -16,7 +16,7 @@ export default class Home extends Component {
                         <br />
                         <p class={`${style.home_caption}`}>Discord Bot for Crypto</p>
                         <p class={`${style.home_sub_caption}`}>
-              Features: List marketcap, Manage wallets, Check prices, and even Scan addresses.
+              Features: Manage wallets, check prices, scan addresses, learn about coins, and much more.
                         </p>
                         <a class={`${style.call_to_action_btn} ui secondary large button`} href="https://goo.gl/Y9eWD4" target="_blank">
               Add to Discord
@@ -66,19 +66,29 @@ export default class Home extends Component {
                             <td><code>coininfo btc</code></td>
                         </tr>
                         <tr>
+                            <td><code>scan [address/txhash] [coin]</code></td>
+                            <td>Automatically scan an address/transaction hash of BTC or ETH and print out its values</td>
+                            <td><code>scan 0x8af2c82B5EdCE866d69390733Cef86A3EA145E3d</code></td>
+                        </tr>
+                        <tr>
                             <td><code>genwallet [symbol]</code></td>
                             <td>Create a paper wallet where keys will be sent via Direct Message. Only supports BTC/ETH/LTC/XRP/BCH/XRB currently</td>
                             <td><code>genwallet eth </code></td>
                         </tr>
                         <tr>
-                            <td><code>invite</code></td>
-                            <td>Generate support server/bot invite links</td>
-                            <td><code>invite</code></td>
+                            <td><code>shitcoin</code></td>
+                            <td>Generate your very own shitcoin, Mad-Libs style!</td>
+                            <td><code>shitcoin</code></td>
                         </tr>
                         <tr>
                             <td><code>flippening</code></td>
                             <td>Check flippening (ETH Overtaking BTC) status</td>
                             <td><code>flippening</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>invite</code></td>
+                            <td>Generate support server/bot invite links</td>
+                            <td><code>invite</code></td>
                         </tr>
                         <tr>
                             <td><code>ping</code></td>
