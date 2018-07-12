@@ -18,7 +18,7 @@ export default class Home extends Component {
                         <p class={`${style.home_sub_caption}`}>
               Features: Manage wallets, check prices, scan addresses, learn about coins, and much more.
                         </p>
-                        <a class={`${style.call_to_action_btn} ui secondary large button`} href="https://goo.gl/Y9eWD4" target="_blank">
+                        <a class={`${style.call_to_action_btn} ui secondary large button`} href="https://goo.gl/UPzqFb" target="_blank">
               Add to Discord
                         </a>
                     </div>
